@@ -1,0 +1,12 @@
+Вывод при последовательном запуске программы:
+nikpeg@nikpeg-HP-15s-fq2013ur:~/NSP/2. Институт/2 курс/OCИ/OS_homework$ ./2-1
+Process identifier: 7526
+Parent process identifier: 7419
+nikpeg@nikpeg-HP-15s-fq2013ur:~/NSP/2. Институт/2 курс/OCИ/OS_homework$ ./2-1
+Process identifier: 7527
+Parent process identifier: 7419
+nikpeg@nikpeg-HP-15s-fq2013ur:~/NSP/2. Институт/2 курс/OCИ/OS_homework$ ./2-1
+Process identifier: 7528
+Parent process identifier: 7419
+
+То есть номер родительского процесса не меняется, а номер текущего процесса увеличивается на 1. Так происходит из-за того, что никакие другие процессы не запускаются внутри процесса терминала.
